@@ -1,0 +1,26 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+  height: 100vh;
+
+}
+.list{
+  width: 12rem;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+}
+.close{
+  cursor: pointer;
+}
