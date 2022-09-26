@@ -5,8 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To do list</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <div>
+      <h1>To do list</h1>
+        <input type="text" name="task" id="input" placeholder="Adicione sua tarefa">
+        <button onclick="newElement()" class="addBtn" type="submit" name="submit">Add task</button>
+    </div>
+    <div class="list">
+      <ul id="myUL">
+        
+      </ul>
+    </div>
+  </div>
   
+  <script src="main.js"></script>
 </body>
 </html>
